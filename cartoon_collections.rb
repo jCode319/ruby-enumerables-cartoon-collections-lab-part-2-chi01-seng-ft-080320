@@ -6,6 +6,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |element| element.upcase }
   puts "#{element}!"
+  planeteer_calls
   end
 end
 
